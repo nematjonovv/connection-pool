@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/index.ts",
-    "example": "ts-node examples/postgres.ts"
+    "example": "ts-node examples/postgres.ts",
+    "test": "ts-node test/pool.test.ts"
   },
   "dependencies": {
     "pg": "^8.11.0"
